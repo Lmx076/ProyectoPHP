@@ -1,0 +1,45 @@
+[21-Feb-2024 20:31:33 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-21T19:31:33Z) not within 600s of server time (2024-02-21T18:34:26Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[21-Feb-2024 20:32:33 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-21T19:32:33Z) not within 600s of server time (2024-02-21T18:35:26Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[21-Feb-2024 20:36:14 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-21T19:36:14Z) not within 600s of server time (2024-02-21T18:39:06Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[21-Feb-2024 20:40:47 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-21T19:40:47Z) not within 600s of server time (2024-02-21T18:43:39Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[21-Feb-2024 20:43:51 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-21T19:43:51Z) not within 600s of server time (2024-02-21T18:46:43Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[22-Feb-2024 17:09:22 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-22T16:09:22Z) not within 600s of server time (2024-02-22T15:12:15Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[22-Feb-2024 17:35:23 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-22T16:35:23Z) not within 600s of server time (2024-02-22T15:38:17Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[22-Feb-2024 17:39:16 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-22T16:39:16Z) not within 600s of server time (2024-02-22T15:39:16Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[23-Feb-2024 17:13:41 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-23T16:13:40Z) not within 600s of server time (2024-02-23T15:13:41Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[23-Feb-2024 17:14:42 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-23T16:14:42Z) not within 600s of server time (2024-02-23T15:14:43Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[23-Feb-2024 17:15:36 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-23T16:15:36Z) not within 600s of server time (2024-02-23T15:15:36Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[23-Feb-2024 17:16:11 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-23T16:16:10Z) not within 600s of server time (2024-02-23T15:16:11Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[23-Feb-2024 17:19:15 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-23T16:19:15Z) not within 600s of server time (2024-02-23T15:19:16Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[23-Feb-2024 17:19:51 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-23T16:19:50Z) not within 600s of server time (2024-02-23T15:19:51Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792
+[23-Feb-2024 17:19:53 Europe/Paris] PHP Fatal error:  Uncaught (Status 401) Timestamp expired: Given timestamp (2024-02-23T16:19:53Z) not within 600s of server time (2024-02-23T15:19:53Z)
+
+  thrown in /home/tarde/Escritorio/DAW LUIS/Servidores/tema9/ejemplo/vendor/pusher/pusher-php-server/src/Pusher.php on line 792

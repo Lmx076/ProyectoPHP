@@ -1,0 +1,72 @@
+<html>
+<body>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://js.pusher.com/8.0.1/pusher.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+    google.charts.load("current", { packages: ["corechart"] });
+    google.charts.setOnLoadCallback(() => {
+        // Instead of hard-coding the initial table data,
+        // you could fetch it from your server.
+        const dataTable = google.visualization.arrayToDataTable([
+            ["Year", "Price"],
+            [2013, 400],
+            [2014, 460],
+        ]);
+        const chart = new google.visualization.AreaChart(
+            document.getElementById("chart_div")
+        );
+        const options = {
+            title: "1 BTC in USD",
+            hAxis: { title: "Year", titleTextStyle: { color: "#333" } },
+            vAxis: { minValue: 0 },
+            animation: { duration: 100, easing: "out" },
+        };
+        chart.draw(dataTable, options);
+        let year = 2015;
+        Pusher.logToConsole = true;
+        const pusher = new Pusher(
+            "bbe3db45f522a48d1cc2", // Replace with 'key' from dashboard
+            {
+                cluster: "eu", // Replace with 'cluster' from dashboard
+                forceTLS: true,
+            }
+        );
+        const channel = pusher.subscribe("price-btcusd");
+        channel.bind("new-price", (data) => {
+            const row = [year++, data.value];
+            dataTable.addRow(row);
+            chart.draw(dataTable, options);
+        });
+    });/*
+
+    const xValues = [50,60,70,80,90,100,110,120,130,140,150];
+    const yValues = [7,8,8,9,9,9,10,11,14,14,15];
+
+    new Chart("myChart", {
+        type: "line",
+        data: {
+            labels: xValues,
+            datasets: [{
+                fill: false,
+                lineTension: 0,
+                backgroundColor: "rgba(0,0,255,1.0)",
+                borderColor: "rgba(0,0,255,0.1)",
+                data: yValues
+            }]
+        },
+        options: {
+            legend: {display: false},
+            scales: {
+                yAxes: [{ticks: {min: 6, max:16}}],
+            }
+        }
+    });
+*/
+</script>
+</body>
+</html>
+
+
